@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #484037;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: #504336;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #DEF3B5;
+    font-size: 1.05rem;
+}
+
+#element {
+    color: #B9E652;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 13vh 0;
+    align-items: center;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection .box {
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 55px 0;
+    display: flex;
+}
+
+.vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 125px;
+
+}
+
+.secondsection h1 {
+    font-size: 1.7rem;
+}
+
+.text-gray {
+    color: rgb(146, 143, 143);
+}
+
+hr {
+    height: 0.5px;
+    border: 0;
+    background: rgb(217, 255, 47);
+    margin: 40px 80px;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+}
+
+.rightsection img {
+    width: 90%;
+}
+
+.purple {
+    color: #B9E652;
+}
+
+.img-top {
+    width: 39px;
+    position: relative;
+    top: -42px;
+    left: -10px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 70px;
+    width: 150px;
+    font-size: 16PX;
+
+}
+
+
+.vertical-desc {
+    position: relative;
+    top: 80px;
+    color: rgb(146, 143, 143);
+    width: 150px;
+    font-size: 11px;
+}
+
+footer {
+    background-color: rgb(91 90 89);
+    height: 230px;
+    justify-content: space-between;
+    padding: 23px 123px;
+    display: flex;
+}
+
+.footer>div {
+    width: 233px;
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+h3 {
+    margin-top: 40px;
+}
